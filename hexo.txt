@@ -1,0 +1,52 @@
+1.安装hexo   npm install -g hexo-cli
+2.$ hexo new [layout] <title>  你可以执行下列命令来创建一篇新文章。
+$ hexo g -d  发布
+
+
+主题：
+在Hexo配置文件（hexo/_config.yml）中把主题设置修改为BlueLake。
+
+theme: BlueLake
+
+如果你想生成压缩后的css，在（hexo/_config.yml）中添加：
+
+stylus:
+  compress: true
+更新
+
+cd themes/BlueLake
+git pull
+配置
+
+打开themes/BlueLake/_config.yml进行配置。
+version - 用于自动刷新CDN上的静态文件。
+menu - 导航菜单。
+widgets - 侧边栏中的窗口小部件。
+Toc - 文章目录
+Static files - 静态文件目录，以方便CDN使用。
+Local search
+self_search - 默认本地JS搜索.
+Cmments
+duoshuo - 若使用多说评论，注册多说后在这填写short_name(用于评论与分享)。
+disqus - 若使用Disqus评论，注册Disqus后在这填写short_name。
+livere- 若使用来必力评论，注册来必力,获得data-uid。
+uyan - 若使用友言评论，注册友言,获得uid。
+cloudTie - 若使用网易云跟帖评论，注册网易云跟帖,获得productKey。
+changyan - 若使用畅言评论，注册畅言，获得appid，appkey。
+About page - 关于我页面(hexo new page 'about')。
+links - 友情链接。
+Miscellaneous
+show_category_count - 是否在侧边栏分类中显示类别的数量（true/false）.
+widgets_on_small_screens - 小屏幕下侧边栏在底部显示.
+busuanzi - 用Busuanzi来统计网站访问量.
+google_analytics - Google Analytics tracking ID。
+baIDu_analytics - Baidu Analytics tracking ID。
+
+
+
+提交git
+git add .        （注：别忘记后面的.，此操作是把Test文件夹下面的文件都添加进来）
+
+git commit  -m  "提交信息"  （注：“提交信息”里面换成你需要，如“first commit”）
+
+git push -u origin master   （注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码）
