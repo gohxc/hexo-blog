@@ -72,3 +72,38 @@ hexo version  #查看Hexo的版本
 
 
 http://blog.csdn.net/chwshuang/article/details/52350589
+
+
+http://wowubuntu.com/markdown/
+
+http://www.jianshu.com/writer#fn_lemma_latex
+
+
+https://www.zybuluo.com/mdeditor?url=https%3A%2F%2Fwww.zybuluo.com%2Fstatic%2Feditor%2Fmd-help.markdown
+
+https://www.zybuluo.com/mdeditor#
+
+
+1.npm install hexo-cli -g  需要管理员身份
+2.hexo init hexo-blog
+$ cd hexo-blog/
+
+3.npm install
+
+http://www.markdownpad.com/download.html
+
+#使用virtualbox 安装虚拟机
+virtualbox [官网](https://www.virtualbox.org/)
+
+http://www.cnblogs.com/PeunZhang/p/5553574.html#npm-update
+https://github.com/mathjax/MathJax
+https://github.com/phoenixcw/hexo-renderer-mathjax  在试试这个
+http://lukang.me/2014/mathjax-for-hexo.html
+
+
+http://2wildkids.com/2016/10/06/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86Hexo%E5%92%8CMathJax%E7%9A%84%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98/
+
+http://www.tuicool.com/articles/3YV3ma2
+
+
+http://www.jianshu.com/p/465830080ea9?utm_campaign=maleskine&utm_content=note&utm_medium=reader_share&utm_source=weibo
