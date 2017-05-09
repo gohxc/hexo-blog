@@ -1,3 +1,12 @@
+git提交到github
+1.打开git bash
+git config --global user.name "You Name"
+git config --global user.email yourmail@server.com
+2.
+
+
+
+
 1.安装hexo   npm install -g hexo-cli
 2.$ hexo new [layout] <title>  你可以执行下列命令来创建一篇新文章。
 $ hexo g -d  发布
