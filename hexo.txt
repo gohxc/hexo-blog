@@ -3,7 +3,14 @@ git提交到github
 git config --global user.name "You Name"
 git config --global user.email yourmail@server.com
 2.
+http://iissnan.com/progit/
 
+
+插件
+hexo-addlink：在文章最末添加永久链接及版权声明，建议安装
+hexo-generator-search: 本地搜索
+hexo-index-anything: 更改首页为任意的页面
+hexo-encrypt：加密你的博客
 
 
 
