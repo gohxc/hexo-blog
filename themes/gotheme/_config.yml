@@ -77,6 +77,15 @@ show_category_count: true ## If you want to show the count of categories in the 
 widgets_on_small_screens: true ## Set to true to enable widgets on small screens.
 busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
 
+# MathJax Support
+# 设置enable属性为true即可开启mathjax
+# per_page如果为true表示所有文章都设置支持mathjax，如果为false，则在需要支持mathjax的文章加上mathjax: true
+mathjax:
+  enable: true
+  per_page: false
+  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+
 # About page
 about:
   photo_url: http://obzf7z93c.bkt.clouddn.com/themeauthor.jpg ## Your photo e.g. http://obzf7z93c.bkt.clouddn.com/themeauthor.jpg
